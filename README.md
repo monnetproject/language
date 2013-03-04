@@ -17,7 +17,9 @@ Features
      - By creating a new instance `Language.getInstance("German","Deutsch","de","deu","deu")`
 
  * Language tags follow the IETF language tag model, as described in RFC 4646. The format of the tags is as follows: 
+
     language (-script)? (-region)? (-variant)* (-extension)* (-privateuse)?
+
  * The string form of these may be obtained as follows 
       - The full tag can be obtained by calling `toString()`
       - The language by calling `getIso639_1()` (two letter code), `getIso639_2()` or `getIso639_3()` (three letter code)
