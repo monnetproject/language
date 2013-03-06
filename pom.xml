@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
         <groupId>eu.monnetproject</groupId>
-        <version>1.13.1-SNAPSHOT</version>
+        <version>1.13.3</version>
     <artifactId>language</artifactId>
     <packaging>bundle</packaging>
 
